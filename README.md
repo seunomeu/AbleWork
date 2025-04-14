@@ -29,7 +29,7 @@
 ## 📚 Complete Documentation
 
 <ul>
-    <li><b>Notion Documentation (Detail)</b></li>
+    <li><b>Notion Documentation (Detail Documentation)</b></li>
     <a href="https://stanley-n-wijaya.notion.site/AbleWork-Documentation-1d473555b71f80eaabd6d8bc29d63153?pvs=4">Notion Documentation</a>
     <li><b>Pitch Deck</b></li>
     <a href="https://www.canva.com/design/DAGkZp_YX00/HMfsMXua5E5T0UG227PWNQ/edit?utm_content=DAGkZp_YX00&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Canva PowerPoint Pitch Deck</a>
@@ -70,6 +70,12 @@
 - 📈 **Job Recommendations AI**  
   Smart AI that recommends ideal career paths based on user input (skills, interests, background).
 
+- 📃 **CV Review AI**  
+  Smart AI that display strengths and improvements for your CV, so you can make it better!
+
+- 📄 **Resume maker**  
+  Confuse where to start? Just make your own CV by inputing your data on AbleWork Resume Maker.
+
 - 💼 **Inclusive Job Board**  
   Job listings from inclusive companies with filters for disability-friendly roles.
 
@@ -82,8 +88,15 @@
 ---
 
 ## 🚀 Live Demo
-Visit the deployed application here:  
+Visit the deployed application here (fully deployed):
+<br>
 👉 [https://ablework.vercel.app](https://ablework.vercel.app)
+
+If you want to check deployment for Backend and AI:
+<br>
+Backend: https://findit-ablework-backend.vercel.app/api/
+<br>
+AI: https://ablework-ai-production.up.railway.app/
 
 ---
 
@@ -96,18 +109,22 @@ Visit the deployed application here:
 
 ### Clone Monorepo & Initialize Submodules
 ```bash
-git clone https://github.com/yourusername/ablework.git
+git clone https://github.com/StyNW7/AbleWork.git
 cd ablework
 git submodule update --init --recursive
 ```
 
 ### Run Setup Script
 ```bash
+Make sure run this using git bash
 chmod +x scripts/setup.sh
 ./scripts/setup.sh
 ```
 
 ### Run Dev Environment via Makefile
+[Prerequisite: Setup the .env files for Frontend, Backend, and AI.](#.env-configuration)
+<br>
+Then Run this command
 ```bash
 make dev
 ```
@@ -140,6 +157,8 @@ VITE_AI_API_URL=http://localhost:5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 HUGGINGFACE_API_KEY=your_huggingface_api_key_here
+PORT=8080
+AI_API=https://ablework-ai-production.up.railway.app/
 ```
 
 📌 You can create these files manually or copy from a provided `.env.example` file (recommended).
@@ -169,10 +188,13 @@ HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 
 *Overall Database System Flow:*
 <p align="center">
-  <img src="./images/architecture-diagram.png" width="700">
+  <img src="./images/ERD-AbleWork.png" width="700">
 </p>
 
 This diagram shows how our models connected in the backend an database.
+
+Detail Diagram:
+https://dbdiagram.io/d/ERD-AbleWork-67ac7d22263d6cf9a0e4147f 
 
 ---
 
