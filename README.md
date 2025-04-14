@@ -13,7 +13,9 @@
 ---
 
 ## 📃 Table of Contents
+- [Language](#language)
 - [Complete Documentation](#complete-documentation)
+- [All GitHub Repository](#all-github-repository)
 - [Introduction](#introduction)
 - [Technology Stack](#technology-stack)
 - [Core Features](#core-features)
@@ -23,6 +25,15 @@
 - [Architecture Diagram](#architecture-diagram)
 - [Team](#team)
 - [Contact](#contact)
+
+---
+
+## 🌆 Language
+
+<ul>
+    <li><b>README Documentation in Indonesia</b></li>
+    <a href="https://github.com/StyNW7/AbleWork/blob/main/README-indo.md">README Indonesian Version</a>
+</ul>
 
 ---
 
@@ -45,13 +56,13 @@
 
 <ul>
     <li><b>Main Repository</b></li>
-    <a href="https://github.com/stynw7/ablework">Notion https://github.com/StyNW7/AbleWork</a>
+    <a href="https://github.com/stynw7/ablework">https://github.com/StyNW7/AbleWork</a>
     <li><b>Frontend Repository</b></li>
-    <a href="https://github.com/stynw7/ablework-frontend">Notion https://github.com/StyNW7/AbleWork-Frontend</a>
+    <a href="https://github.com/stynw7/ablework-frontend">https://github.com/StyNW7/AbleWork-Frontend</a>
     <li><b>Backend Repository</b></li>
-    <a href="https://github.com/nathanielalex/ablework_backend">Notion https://github.com/nathanielalex/AbleWork_backend</a>
+    <a href="https://github.com/nathanielalex/ablework_backend">https://github.com/nathanielalex/AbleWork_backend</a>
     <li><b>AI Repository</b></li>
-    <a href="https://github.com/stynw7/ablework-ai">Notion https://github.com/StyNW7/AbleWork-ai</a>
+    <a href="https://github.com/stynw7/ablework-ai">https://github.com/StyNW7/AbleWork-ai</a>
 </ul>
 
 ---
