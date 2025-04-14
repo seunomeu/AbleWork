@@ -1,7 +1,7 @@
 <h1 align="center"> AbleWork </h1> <br>
 <p align="center">
   <a href="https://ablework.vercel.app">
-    <img alt="AbleWork" title="AbleWork" src="./frontend/public/images/logo.png" width="320">
+    <img alt="AbleWork" title="AbleWork" src="./images/logo.png" width="320">
   </a>
 </p>
 
@@ -150,17 +150,17 @@ HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 
 *Welcome Page*
 <p align="center">
-  <img src="./frontend/public/images/display/welcome.png" width="700">
+  <img src="./images/welcome.png" width="700">
 </p>
 
 *Job Listings*
 <p align="center">
-  <img src="./frontend/public/images/display/jobs.png"  width="700">
+  <img src="./images/jobs.png"  width="700">
 </p>
 
 *AbleBot Chat in Action*
 <p align="center">
-  <img src="./frontend/public/images/display/chatbot.png"  width="700">
+  <img src="./images/chatbot.png"  width="700">
 </p>
 
 ---
@@ -169,7 +169,7 @@ HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 
 *Overall Database System Flow:*
 <p align="center">
-  <img src="./public/images/architecture-diagram.png" width="700">
+  <img src="./images/architecture-diagram.png" width="700">
 </p>
 
 This diagram shows how our models connected in the backend an database.
