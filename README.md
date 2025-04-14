@@ -41,6 +41,22 @@
 
 ---
 
+## 🌐 All GitHub Repository
+
+<ul>
+    <li><b>Main Repository</b></li>
+    <a href="https://github.com/stynw7/ablework">Notion https://github.com/StyNW7/AbleWork</a>
+    <li><b>Frontend Repository</b></li>
+    <a href="https://github.com/stynw7/ablework-frontend">Notion https://github.com/StyNW7/AbleWork-Frontend</a>
+    <li><b>Backend Repository</b></li>
+    <a href="https://github.com/nathanielalex/ablework_backend">Notion https://github.com/nathanielalex/AbleWork_backend</a>
+    <li><b>AI Repository</b></li>
+    <a href="https://github.com/stynw7/ablework-ai">Notion https://github.com/StyNW7/AbleWork-ai</a>
+</ul>
+
+---
+
+
 ## 🌟 Introduction
 **AbleWork** empowers people with disabilities to explore and pursue meaningful careers through accessible job listings, AI-based career tools, and a human-centered design approach. This project aims to break down barriers to employment by integrating inclusive design and accessible technology.
 
@@ -148,8 +164,8 @@ HF_API_KEY=your_huggingface_api_key_here
 
 ### 📁 `frontend/.env`
 ```
-VITE_API_URL=http://localhost:8080
-VITE_AI_API_URL=http://localhost:5000
+VITE_API_URL=http://localhost:8080/api/
+VITE_AI_API_URL=http://localhost:5000/
 ```
 
 ### 📁 `backend/.env`
@@ -158,7 +174,7 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 PORT=8080
-AI_API=https://ablework-ai-production.up.railway.app/
+AI_API=http://localhost:5000/
 ```
 
 📌 You can create these files manually or copy from a provided `.env.example` file (recommended).

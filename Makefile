@@ -23,4 +23,4 @@ backend:
 
 ai:
 	@echo "🧠 Starting AI server..."
-	cd ai && source .venv/bin/activate && python main.py
+	cd ai && python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt && python main.py
