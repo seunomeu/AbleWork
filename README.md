@@ -45,9 +45,9 @@
     <li><b>Pitch Deck</b></li>
     <a href="https://www.canva.com/design/DAGkZp_YX00/HMfsMXua5E5T0UG227PWNQ/edit?utm_content=DAGkZp_YX00&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Canva PowerPoint Pitch Deck</a>
     <li><b>Demo Video</b></li>
-    <a href="">Link Demo Video (Google Drive)</a>
-    <li><b>Docs</b></li>
-    <a href="">Docs (Google Drive)</a>
+    <a href="https://drive.google.com/drive/folders/1XjZfySvS92iNH79hF5l6FU3b2-mCguZh?usp=sharing">Link Demo Video (Google Drive)</a>
+    <li><b>AbleWork Google Drive</b></li>
+    <a href="https://drive.google.com/drive/folders/1nOP9_njdFNmNuRJksGA6-yWUjZJkcVN5?usp=sharing">Docs (Google Drive)</a>
 </ul>
 
 ---
@@ -142,13 +142,13 @@ git submodule update --init --recursive
 ```
 
 ### Run Setup Script
-```bash
 Make sure run this using git bash
+```bash
 chmod +x scripts/setup.sh
 ./scripts/setup.sh
 ```
 
-### Run Dev Environment via Makefile
+### Run Dev Environment via Makefile or Shell Script or Manually
 [Prerequisite: Setup the .env files for Frontend, Backend, and AI.](#.env-configuration)
 <br>
 Then Run this command
@@ -156,11 +156,39 @@ Then Run this command
 make dev
 ```
 
-Or run each individually:
+Or if you prefer using Shell Script, you can run this:
 ```bash
-make frontend
-make backend
-make ai
+chmod +x scripts/dev.sh
+./scripts/dev.sh update      # update semua submodule
+./scripts/dev.sh frontend    # jalankan frontend
+./scripts/dev.sh backend     # jalankan backend
+./scripts/dev.sh ai          # jalankan AI
+./scripts/dev.sh dev         # jalankan semuanya
+```
+
+Or if you prefer manually you can do this:
+
+Frontend:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Backend:
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+AI:
+```bash
+cd frontend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python main.py
 ```
 
 ---
